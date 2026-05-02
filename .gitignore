@@ -9,12 +9,31 @@ build-*/
 *.so
 *.a
 *.lib
+*.ilk
+*.pdb
+*.exp
+*.map
 
-# 临时文件
+# Qt 临时文件
+*.autosave
+*.qrc.autosave
+*.ui.autosave
+*.h.autosave
+*.cpp.autosave
+
+# 调试/日志文件
 *.log
 *.tmp
 *.bak
+*.swp
+*~
 
 # 系统文件
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# IDE 配置
+.vscode/
+.idea/
+*.user
