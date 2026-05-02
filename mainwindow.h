@@ -15,7 +15,12 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+    void init();
+
 private:
     Ui::MainWindow *ui;
+
+    void initFontSize();
+    void initScrollBar();
 };
 #endif // MAINWINDOW_H
