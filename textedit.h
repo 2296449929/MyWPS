@@ -5,6 +5,7 @@
 
 class TextEdit : public QTextEdit
 {
+    Q_OBJECT
 public:
     TextEdit(QWidget *parent = nullptr);
 };
